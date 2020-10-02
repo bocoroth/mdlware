@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# NTC_Thermistor
+#
+DEF NTC_Thermistor NTC 0 40 Y Y 1 F N
+F0 "NTC" 0 250 50 H V C CNN
+F1 "NTC_Thermistor" 0 150 50 H V C CNN
+F2 "MDLSynth:THERM_NXRT15WB333JA1B010" -50 -300 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -100 30 0 0 0 -t° Normal 0 C C
+P 3 0 1 0 -150 -100 -100 -100 100 100 N
+P 6 0 1 0 -100 0 -100 -50 100 -50 100 50 -100 50 -100 0 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
