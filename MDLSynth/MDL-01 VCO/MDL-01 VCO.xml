@@ -1,0 +1,2055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/matt/google-drive/Electronics Projects/mdlware/MDLSynth/MDL-01 VCO/MDL-01 VCO.sch</source>
+    <date>Mon 26 Apr 2021 08:20:49 PM EDT</date>
+    <tool>Eeschema 5.1.5+dfsg1-2build2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>MDL-01 VCO</title>
+        <company>MDL Synth</company>
+        <rev>1.2</rev>
+        <date>2020-09-28</date>
+        <source>MDL-01 VCO.sch</source>
+        <comment number="1" value="Copyright (C) 2020, 2021 Matt Lisiak"/>
+        <comment number="2" value="LICENSE: CERN-OHL-S (https://ohwr.org/cern_ohl_s_v2.txt)"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R12">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">2019-RK73H2ATTD2002FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE2002F</field>
+        <field name="Tayda">A-3096</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7134B6</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>47K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTD4702FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTDD4702F</field>
+        <field name="Tayda">A-3105</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7177FD</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>B2K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">490-2880-ND</field>
+        <field name="Mouser">652-3296Y-1-202LF</field>
+        <field name="Tayda">A-591</field>
+        <field name="price">$0.28</field>
+      </fields>
+      <libsource lib="Device" part="R_POT_TRIM_US" description="Trim-potentiometer, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F72399A</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2N3904-APCT-ND</field>
+        <field name="Mouser">610-2N3904</field>
+        <field name="Tayda">A-111</field>
+        <field name="price">$0.02</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F72D13B</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2N3904-APCT-ND</field>
+        <field name="Mouser">610-2N3904</field>
+        <field name="Tayda">A-111</field>
+        <field name="price">$0.02</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F72E229</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1.5M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTD1504FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTD1504F</field>
+        <field name="Tayda">A-3141</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F75BAD1</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CV3</value>
+      <footprint>MDLSynth:Thonkiconn</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">--</field>
+        <field name="Mouser">--</field>
+        <field name="Tayda">A-2563</field>
+        <field name="price">$0.23</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6BB7D0</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CV2</value>
+      <footprint>MDLSynth:Thonkiconn</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">--</field>
+        <field name="Mouser">--</field>
+        <field name="Tayda">A-2563</field>
+        <field name="price">$0.23</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6BB2F3</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CV1</value>
+      <footprint>MDLSynth:Thonkiconn</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">--</field>
+        <field name="Mouser">--</field>
+        <field name="Tayda">A-2563</field>
+        <field name="price">$0.23</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6B90AC</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>MANUAL FREQ</value>
+      <footprint>MDLSynth:SW_Toggle_Blue_wSlots</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">EG2350-ND</field>
+        <field name="Mouser">612-100-A1111</field>
+        <field name="Tayda">A-4567</field>
+        <field name="price">$0.47</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6D28AE</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">2019-RK73H2ATTD1001FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE1001F</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F768A7C</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Digi-Key</field>
+        <field name="Digi-Key">399-15000-1-ND</field>
+        <field name="Mouser">187-CL21C101JCANNNC</field>
+        <field name="Tayda">A-3503</field>
+        <field name="price">$0.0079</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F78B751</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">13-AC0805FR-7W100KLCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE1003F</field>
+        <field name="Tayda">A-3113</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6C06BE</tstamp>
+    </comp>
+    <comp ref="RV4">
+      <value>B2K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">490-2880-ND</field>
+        <field name="Mouser">652-3296Y-1-202LF</field>
+        <field name="Tayda">A-591</field>
+        <field name="price">$0.28</field>
+      </fields>
+      <libsource lib="Device" part="R_POT_TRIM_US" description="Trim-potentiometer, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F756699</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>2.2nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Digi-Key</field>
+        <field name="Digi-Key">1276-2484-1-ND</field>
+        <field name="Mouser">80-C0805C222K5R</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.0182</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F761386</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">FDLL4148-D87ZCT-ND</field>
+        <field name="Mouser">821-LL4148L1G</field>
+        <field name="Tayda">A-1213</field>
+        <field name="price">$0.03</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F76DCE1</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>47K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTD4702FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTDD4702F</field>
+        <field name="Tayda">A-3105</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7882F7</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTE1002FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTDD1002F</field>
+        <field name="Tayda">A-3089</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7900BA</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTE1002FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTDD1002F</field>
+        <field name="Tayda">A-3089</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F791113</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTD5101FCT-ND</field>
+        <field name="Mouser">603-RC0805FR-135K1L</field>
+        <field name="Tayda">A-3082</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7B9CBD</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTE1002FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTDD1002F</field>
+        <field name="Tayda">A-3089</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7B92B6</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>220K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">RHM220KAECT-ND</field>
+        <field name="Mouser">603-RC0805FR-13220KL</field>
+        <field name="Tayda">A-3121</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F77C292</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_Elec_6.3x5.4</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Digi-Key</field>
+        <field name="Digi-Key">PCE4294CT-ND</field>
+        <field name="Mouser">647-UUP1V100MCL1GS</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.2163</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F837215</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>47K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTD4702FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTDD4702F</field>
+        <field name="Tayda">A-3105</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F84DB8B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_Elec_4x5.4</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Digi-Key</field>
+        <field name="Digi-Key">PCE4301CT-ND</field>
+        <field name="Mouser">647-UWP1H010MCL</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.1542</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F94334F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>200K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTD2003FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE2003F</field>
+        <field name="Tayda">A-3120</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9454F9</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTE1002FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTDD1002F</field>
+        <field name="Tayda">A-3089</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F98B8CB</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTE1002FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTDD1002F</field>
+        <field name="Tayda">A-3089</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9ECF2B</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">2019-RK73H2ATTD2002FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE2002F</field>
+        <field name="Tayda">A-3096</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA2FAC5</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">1276-1020-1-ND</field>
+        <field name="Mouser">187-CL21B102KBANFNC</field>
+        <field name="Tayda">A-943</field>
+        <field name="price">$0.01</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA96A03</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>200K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTD2003FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE2003F</field>
+        <field name="Tayda">A-3120</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAA059B</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>3.9K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTD3901FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTD3901F</field>
+        <field name="Tayda">A-3079</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAAEDAF</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTE1002FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTDD1002F</field>
+        <field name="Tayda">A-3089</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAB9B9C</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>6.8K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTD6801FCT-ND</field>
+        <field name="Mouser">603-RC0805FR-136K8L</field>
+        <field name="Tayda">A-3085</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF1A786</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>47K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTD4702FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTDD4702F</field>
+        <field name="Tayda">A-3105</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF52E5A</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>22K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTD2202FCT-ND</field>
+        <field name="Mouser">603-RC0805FR-1322KL</field>
+        <field name="Tayda">A-3097</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF53330</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>56K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTD5602FCT-ND</field>
+        <field name="Mouser">603-RC0805FR-1356KL</field>
+        <field name="Tayda">A-3107</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6010EDEF</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>30K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTD3002FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTD3002F</field>
+        <field name="Tayda">A-3100</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601276CB</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>PULSE</value>
+      <footprint>MDLSynth:Thonkiconn</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">--</field>
+        <field name="Mouser">--</field>
+        <field name="Tayda">A-2563</field>
+        <field name="price">$0.23</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604721B0</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>TRIANGLE</value>
+      <footprint>MDLSynth:Thonkiconn</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">--</field>
+        <field name="Mouser">--</field>
+        <field name="Tayda">A-2563</field>
+        <field name="price">$0.23</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604B06ED</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>SINE</value>
+      <footprint>MDLSynth:Thonkiconn</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">--</field>
+        <field name="Mouser">--</field>
+        <field name="Tayda">A-2563</field>
+        <field name="price">$0.23</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604C6650</tstamp>
+    </comp>
+    <comp ref="NTC1">
+      <value>10K</value>
+      <footprint>MDLSynth:THERM_NXRT15WB333JA1B010</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Digi-Key</field>
+        <field name="Digi-Key">490-7171-ND</field>
+        <field name="Mouser">594-2381-640-66103</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.287</field>
+      </fields>
+      <libsource lib="MDLSynth" part="NTC_Thermistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBA7A52</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>STRIPE</value>
+      <footprint>Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">S9171-ND</field>
+        <field name="Mouser">710-61201621621</field>
+        <field name="Tayda">A-2956</field>
+        <field name="price">$0.18</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6CFD53</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>B100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">--</field>
+        <field name="Mouser">317-2090F-100K</field>
+        <field name="Tayda">A-1851</field>
+        <field name="price">$0.67</field>
+      </fields>
+      <libsource lib="Device" part="R_POT_US" description="Potentiometer, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6BE27D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">13-AC0805FR-7W100KLCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE1003F</field>
+        <field name="Tayda">A-3113</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7AF094</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">13-AC0805FR-7W100KLCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE1003F</field>
+        <field name="Tayda">A-3113</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7B169C</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">13-AC0805FR-7W100KLCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE1003F</field>
+        <field name="Tayda">A-3113</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7B2304</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">13-AC0805FR-7W100KLCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE1003F</field>
+        <field name="Tayda">A-3113</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7B32D1</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>RAMP</value>
+      <footprint>MDLSynth:Thonkiconn</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">--</field>
+        <field name="Mouser">--</field>
+        <field name="Tayda">A-2563</field>
+        <field name="price">$0.23</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6048640D</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>SAW</value>
+      <footprint>MDLSynth:Thonkiconn</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">--</field>
+        <field name="Mouser">--</field>
+        <field name="Tayda">A-2563</field>
+        <field name="price">$0.23</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603D1D38</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">2019-RK73H2ATTD1001FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE1001F</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC4902F</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">2019-RK73H2ATTD1001FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE1001F</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD6AB0D</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">2019-RK73H2ATTD1001FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE1001F</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEBA8CA</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TL074</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">296-TL074HIDRCT-ND</field>
+        <field name="Mouser">595-TL074CDR</field>
+        <field name="Tayda">A-1137</field>
+        <field name="price">$0.26</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60053E19</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">2019-RK73H2ATTD1001FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE1001F</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600AB8C0</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">2019-RK73H2ATTD1001FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE1001F</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601C18C1</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">2019-RK73H2ATTD1001FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE1001F</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6018217F</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>SQUARE</value>
+      <footprint>MDLSynth:Thonkiconn</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">--</field>
+        <field name="Mouser">--</field>
+        <field name="Tayda">A-2563</field>
+        <field name="price">$0.23</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049B39D</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TL074</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">296-TL074HIDRCT-ND</field>
+        <field name="Mouser">595-TL074CDR</field>
+        <field name="Tayda">A-1137</field>
+        <field name="price">$0.26</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F77D5DC</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TL074</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">296-TL074HIDRCT-ND</field>
+        <field name="Mouser">595-TL074CDR</field>
+        <field name="Tayda">A-1137</field>
+        <field name="price">$0.26</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F964F2E</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">1276-2449-1-ND</field>
+        <field name="Mouser">187-CL21B104MACNNNC</field>
+        <field name="Tayda">A-3511</field>
+        <field name="price">$0.014</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F705CDC</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">1276-2449-1-ND</field>
+        <field name="Mouser">187-CL21B104MACNNNC</field>
+        <field name="Tayda">A-3511</field>
+        <field name="price">$0.014</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F705CD6</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">1276-2449-1-ND</field>
+        <field name="Mouser">187-CL21B104MACNNNC</field>
+        <field name="Tayda">A-3511</field>
+        <field name="price">$0.014</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6ECFC3</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">1276-2449-1-ND</field>
+        <field name="Mouser">187-CL21B104MACNNNC</field>
+        <field name="Tayda">A-3511</field>
+        <field name="price">$0.014</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6E160C</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TL072</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">296-52761-1-ND</field>
+        <field name="Mouser">595-TL072CDRG4</field>
+        <field name="Tayda">A-1136</field>
+        <field name="price">$0.209</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="TL072" description="Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE3C562</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>B2K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">490-2880-ND</field>
+        <field name="Mouser">652-3296Y-1-202LF</field>
+        <field name="Tayda">A-591</field>
+        <field name="price">$0.28</field>
+      </fields>
+      <libsource lib="Device" part="R_POT_TRIM_US" description="Trim-potentiometer, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C6F05</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">RNCP0805FTD2K00CT-ND</field>
+        <field name="Mouser">660-RK73H2ATTDD2001F</field>
+        <field name="Tayda">A-3373</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6096DAFE</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>3.9K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTD3901FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTD3901F</field>
+        <field name="Tayda">A-3079</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CA1E20</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">2019-RK73H2ATTD3R30FCT-ND</field>
+        <field name="Mouser">603-RC0805FR-133K3L</field>
+        <field name="Tayda">A-3077</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CA2F58</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_Elec_4x5.4</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Digi-Key</field>
+        <field name="Digi-Key">PCE4301CT-ND</field>
+        <field name="Mouser">647-UWP1H010MCL</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.1542</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C5FC6E</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTE1002FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTDD1002F</field>
+        <field name="Tayda">A-3089</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C61806</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">2019-RK73H2ATTD1004FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTDD1004F</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.01</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C62058</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_Elec_4x5.4</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Digi-Key</field>
+        <field name="Digi-Key">PCE4301CT-ND</field>
+        <field name="Mouser">647-UWP1H010MCL</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.1542</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FACF478</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">FDLL4148-D87ZCT-ND</field>
+        <field name="Mouser">821-LL4148L1G</field>
+        <field name="Tayda">A-1213</field>
+        <field name="price">$0.03</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A466BA</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">FDLL4148-D87ZCT-ND</field>
+        <field name="Mouser">821-LL4148L1G</field>
+        <field name="Tayda">A-1213</field>
+        <field name="price">$0.03</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A48438</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>5457</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">MMBF5457CT-ND</field>
+        <field name="Mouser">512-MMBF5457</field>
+        <field name="Tayda">A-1543</field>
+        <field name="price">$0.32</field>
+      </fields>
+      <libsource lib="Device" part="Q_NJFET_DSG" description="N-JFET transistor, drain/source/gate"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCA91DF</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>8.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTD8201FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTD8201F</field>
+        <field name="Tayda">A-3087</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCA699E</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">2019-RK73H2ATTD1001FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE1001F</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCA5A1D</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">2019-RK73H2ATTD1001FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE1001F</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCA4A9F</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">FDLL4148-D87ZCT-ND</field>
+        <field name="Mouser">821-LL4148L1G</field>
+        <field name="Tayda">A-1213</field>
+        <field name="price">$0.03</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCA434D</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">FDLL4148-D87ZCT-ND</field>
+        <field name="Mouser">821-LL4148L1G</field>
+        <field name="Tayda">A-1213</field>
+        <field name="price">$0.03</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCA33DE</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">2019-RK73H2ATTD1004FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTDD1004F</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.01</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCA3014</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">2019-RK73H2ATTD1004FCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTDD1004F</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.01</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCA16DA</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1.8K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Tayda</field>
+        <field name="Digi-Key">2019-RK73H2ATTD1801FCT-ND</field>
+        <field name="Mouser">667-ERJ-P06F1801V</field>
+        <field name="Tayda">A-3071</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>645ED967</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">2019-RK73H2ATTD3R30FCT-ND</field>
+        <field name="Mouser">603-RC0805FR-133K3L</field>
+        <field name="Tayda">A-3077</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>648A7E15</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">13-AC0805FR-7W100KLCT-ND</field>
+        <field name="Mouser">660-RK73H2ATTE1003F</field>
+        <field name="Tayda">A-3113</field>
+        <field name="price">$0.009</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE29B2</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">1276-2449-1-ND</field>
+        <field name="Mouser">187-CL21B104MACNNNC</field>
+        <field name="Tayda">A-3511</field>
+        <field name="price">$0.014</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE43EA1</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">1276-2449-1-ND</field>
+        <field name="Mouser">187-CL21B104MACNNNC</field>
+        <field name="Tayda">A-3511</field>
+        <field name="price">$0.014</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE43462</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">1276-2449-1-ND</field>
+        <field name="Mouser">187-CL21B104MACNNNC</field>
+        <field name="Tayda">A-3511</field>
+        <field name="price">$0.014</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>653FA54D</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">1276-2449-1-ND</field>
+        <field name="Mouser">187-CL21B104MACNNNC</field>
+        <field name="Tayda">A-3511</field>
+        <field name="price">$0.014</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>653FB29D</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>5817</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">B5817WS-TPMSCT-ND</field>
+        <field name="Mouser">833-B5817WS-TP</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.148</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CB7987</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>5817</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="Cheapest (x100)?">Mouser</field>
+        <field name="Digi-Key">B5817WS-TPMSCT-ND</field>
+        <field name="Mouser">833-B5817WS-TP</field>
+        <field name="Tayda">--</field>
+        <field name="price">$0.148</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CBC035</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="LM2902">
+      <aliases>
+        <alias>LM324</alias>
+        <alias>TLC274</alias>
+        <alias>TLC279</alias>
+        <alias>TL074</alias>
+        <alias>LM324A</alias>
+        <alias>MCP6004</alias>
+        <alias>TL084</alias>
+        <alias>TL064</alias>
+        <alias>LMV324</alias>
+        <alias>LMC6484</alias>
+        <alias>MCP604</alias>
+        <alias>MC33079</alias>
+        <alias>MC33174</alias>
+        <alias>MC33179</alias>
+        <alias>OPA1604</alias>
+        <alias>OPA1679</alias>
+        <alias>OPA4134</alias>
+        <alias>OPA4340UA</alias>
+        <alias>OPA4376</alias>
+        <alias>MCP6L94</alias>
+        <alias>TSV914</alias>
+        <alias>ADA4807-4</alias>
+        <alias>TSV994</alias>
+      </aliases>
+      <description>Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2902</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="LM2904">
+      <aliases>
+        <alias>LM358</alias>
+        <alias>AD8620</alias>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>TL062</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+        <alias>NE5532</alias>
+        <alias>SA5532</alias>
+        <alias>RC4558</alias>
+        <alias>RC4560</alias>
+        <alias>RC4580</alias>
+        <alias>LMV358</alias>
+        <alias>TS912</alias>
+        <alias>TSV912IDT</alias>
+        <alias>TSV912IST</alias>
+        <alias>TLC272</alias>
+        <alias>TLC277</alias>
+        <alias>MCP602</alias>
+        <alias>OPA1678</alias>
+        <alias>OPA2134</alias>
+        <alias>OPA2340</alias>
+        <alias>OPA2376xxD</alias>
+        <alias>OPA2376xxDGK</alias>
+        <alias>MC33078</alias>
+        <alias>MC33178</alias>
+        <alias>LM4562</alias>
+        <alias>OP249</alias>
+        <alias>OP275</alias>
+        <alias>ADA4075-2</alias>
+        <alias>MCP6002-xP</alias>
+        <alias>MCP6002-xSN</alias>
+        <alias>MCP6002-xMS</alias>
+        <alias>LM7332</alias>
+        <alias>OPA2333xxD</alias>
+        <alias>OPA2333xxDGK</alias>
+        <alias>LMC6482</alias>
+        <alias>LT1492</alias>
+        <alias>LTC6081xMS8</alias>
+        <alias>LM6172</alias>
+        <alias>MCP6L92</alias>
+        <alias>NJM2043</alias>
+        <alias>NJM2114</alias>
+        <alias>NJM4556A</alias>
+        <alias>NJM4558</alias>
+        <alias>NJM4559</alias>
+        <alias>NJM4560</alias>
+        <alias>NJM4580</alias>
+        <alias>NJM5532</alias>
+        <alias>ADA4807-2ARM</alias>
+        <alias>OPA2691</alias>
+        <alias>LT6234</alias>
+        <alias>OPA2356xxD</alias>
+        <alias>OPA2356xxDGK</alias>
+        <alias>OPA1612AxD</alias>
+        <alias>MC33172</alias>
+        <alias>OPA1602</alias>
+        <alias>TLV2372</alias>
+        <alias>LT6237</alias>
+        <alias>OPA2277</alias>
+      </aliases>
+      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm358.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="AudioJack2">
+      <description>Audio Jack, 2 Poles (Mono / TS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2</field>
+      </fields>
+      <pins>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Odd_Even">
+      <description>Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NJFET_DSG">
+      <description>N-JFET transistor, drain/source/gate</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NJFET_DSG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_TRIM_US">
+      <description>Trim-potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_TRIM_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_US">
+      <description>Potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="LL4148">
+      <aliases>
+        <alias>LL4448</alias>
+      </aliases>
+      <description>100V 0.15A standard switching diode, MiniMELF</description>
+      <docs>http://www.vishay.com/docs/85557/ll4148.pdf</docs>
+      <footprints>
+        <fp>D*MiniMELF*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LL4148</field>
+        <field name="Footprint">Diode_SMD:D_MiniMELF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MDLSynth" part="NTC_Thermistor">
+      <fields>
+        <field name="Reference">NTC</field>
+        <field name="Value">NTC_Thermistor</field>
+        <field name="Footprint">MDLSynth:THERM_NXRT15WB333JA1B010</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>/usr/share/kicad/library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="MDLSynth">
+      <uri>/home/matt/google-drive/Electronics Projects/mdlware/MDLSynth/lib/MDLSynth.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C15-Pad2)">
+      <node ref="R46" pin="1"/>
+      <node ref="R47" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J4" pin="3"/>
+      <node ref="J4" pin="4"/>
+      <node ref="J4" pin="5"/>
+      <node ref="J4" pin="6"/>
+      <node ref="J4" pin="7"/>
+      <node ref="R45" pin="2"/>
+      <node ref="J9" pin="S"/>
+      <node ref="J4" pin="8"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R37" pin="2"/>
+      <node ref="R34" pin="1"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="J5" pin="S"/>
+      <node ref="R38" pin="1"/>
+      <node ref="J10" pin="S"/>
+      <node ref="J6" pin="S"/>
+      <node ref="J8" pin="S"/>
+      <node ref="U4" pin="3"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="R33" pin="1"/>
+      <node ref="RV3" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R32" pin="1"/>
+      <node ref="J3" pin="S"/>
+      <node ref="R44" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="J2" pin="S"/>
+      <node ref="J1" pin="S"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J7" pin="S"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="R47" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="D6" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="R31" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R46" pin="2"/>
+      <node ref="U4" pin="8"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="4" name="Net-(R35-Pad1)">
+      <node ref="R36" pin="1"/>
+      <node ref="R35" pin="1"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="5" name="Net-(C14-Pad2)">
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="12"/>
+      <node ref="R33" pin="2"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="6" name="SAW">
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="7" name="Net-(J8-PadT)">
+      <node ref="J8" pin="T"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="8" name="PULSE">
+      <node ref="R27" pin="2"/>
+      <node ref="R40" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="9" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="10" name="Net-(C4-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="11" name="Net-(C7-Pad1)">
+      <node ref="D2" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="13" name="Net-(D2-Pad1)">
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="14" name="Net-(C4-Pad1)">
+      <node ref="U3" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="15" name="-12V">
+      <node ref="RV1" pin="3"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U2" pin="11"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="16" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="RV2" pin="1"/>
+    </net>
+    <net code="17" name="CV_IN">
+      <node ref="SW1" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="RV2" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="18" name="Net-(R34-Pad2)">
+      <node ref="R35" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="19" name="Net-(R38-Pad2)">
+      <node ref="R38" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="20" name="Net-(J4-Pad15)">
+      <node ref="J4" pin="16"/>
+      <node ref="J4" pin="15"/>
+    </net>
+    <net code="21" name="Net-(J4-Pad13)">
+      <node ref="J4" pin="14"/>
+      <node ref="J4" pin="13"/>
+    </net>
+    <net code="22" name="Net-(J4-Pad11)">
+      <node ref="J4" pin="12"/>
+      <node ref="J4" pin="11"/>
+    </net>
+    <net code="23" name="Net-(R42-Pad2)">
+      <node ref="R42" pin="2"/>
+      <node ref="R45" pin="1"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="24" name="Net-(R28-Pad2)">
+      <node ref="R28" pin="2"/>
+      <node ref="U3" pin="14"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="25" name="Net-(R37-Pad1)">
+      <node ref="R37" pin="1"/>
+      <node ref="U4" pin="6"/>
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="26" name="Net-(R39-Pad2)">
+      <node ref="R39" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="R41" pin="2"/>
+    </net>
+    <net code="27" name="Net-(R13-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="28" name="Net-(R26-Pad2)">
+      <node ref="U3" pin="12"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="29" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="30" name="TRIANGLE">
+      <node ref="R24" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="31" name="Net-(R1-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="32" name="Net-(Q3-Pad2)">
+      <node ref="U3" pin="13"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="33" name="Net-(D3-Pad2)">
+      <node ref="Q3" pin="3"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="34" name="Net-(R30-Pad1)">
+      <node ref="R32" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="35" name="EXPO">
+      <node ref="RV4" pin="1"/>
+      <node ref="U2" pin="12"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="36" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2"/>
+      <node ref="RV4" pin="3"/>
+      <node ref="RV4" pin="2"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="37" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="38" name="Net-(C15-Pad1)">
+      <node ref="R44" pin="2"/>
+      <node ref="R40" pin="1"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="39" name="Net-(R27-Pad1)">
+      <node ref="R30" pin="2"/>
+      <node ref="R27" pin="1"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="40" name="Net-(NTC1-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="NTC1" pin="1"/>
+    </net>
+    <net code="41" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="42" name="Net-(Q1-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="43" name="Net-(C8-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="44" name="Net-(C8-Pad2)">
+      <node ref="R20" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="45" name="Net-(Q1-Pad2)">
+      <node ref="R14" pin="1"/>
+      <node ref="RV3" pin="3"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="RV3" pin="2"/>
+    </net>
+    <net code="46" name="Net-(R3-Pad1)">
+      <node ref="SW1" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="47" name="Net-(R3-Pad2)">
+      <node ref="RV1" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="48" name="Net-(J1-PadT)">
+      <node ref="J1" pin="T"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="49" name="Net-(J2-PadT)">
+      <node ref="J2" pin="T"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="50" name="Net-(J3-PadT)">
+      <node ref="R6" pin="2"/>
+      <node ref="J3" pin="T"/>
+    </net>
+    <net code="51" name="Net-(NTC1-Pad2)">
+      <node ref="R12" pin="1"/>
+      <node ref="NTC1" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="52" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="J4" pin="9"/>
+      <node ref="J4" pin="10"/>
+    </net>
+    <net code="53" name="Net-(D7-Pad1)">
+      <node ref="J4" pin="2"/>
+      <node ref="D7" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="54" name="Net-(J9-PadT)">
+      <node ref="R43" pin="1"/>
+      <node ref="J9" pin="T"/>
+    </net>
+    <net code="55" name="Net-(R43-Pad2)">
+      <node ref="U3" pin="9"/>
+      <node ref="U3" pin="8"/>
+      <node ref="R43" pin="2"/>
+    </net>
+    <net code="56" name="Net-(J5-PadT)">
+      <node ref="R18" pin="1"/>
+      <node ref="J5" pin="T"/>
+    </net>
+    <net code="57" name="Net-(J7-PadT)">
+      <node ref="R28" pin="1"/>
+      <node ref="J7" pin="T"/>
+    </net>
+    <net code="58" name="Net-(J10-PadT)">
+      <node ref="R41" pin="1"/>
+      <node ref="J10" pin="T"/>
+    </net>
+    <net code="59" name="Net-(J6-PadT)">
+      <node ref="R13" pin="1"/>
+      <node ref="J6" pin="T"/>
+    </net>
+    <net code="60" name="Net-(C1-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+  </nets>
+</export>
