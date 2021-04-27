@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name MDL-01-VCO-rescue)(type Legacy)(uri "${KIPRJMOD}/MDL-01 VCO-rescue.lib")(options "")(descr ""))
-)
